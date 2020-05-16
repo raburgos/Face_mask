@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 yolo/yolov3_custom_train_final.weights filter=lfs diff=lfs merge=lfs -text
+tiny_yolo/yolov3-tiny_custom_final.weights filter=lfs diff=lfs merge=lfs -text
