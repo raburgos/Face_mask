@@ -1,7 +1,7 @@
 # Face_mask
  Face Mask - Object Detection
 
-This repository it´s about Object Detection using YOLOv3 and tiny yolov3, with custom training data to detect if people is using mask or not (also I train class label 'semi-mask'; in this case isn´t work well due to lack of images in the initial training process).
+This repository it´s about Object Detection using YOLOv3 and tiny yolov3, with custom training data to detect if people is using mask or not (also I trained class label 'semi-mask'; in this case isn´t work well due to lack of images in the initial training process).
 
 # **Setting up everything!**
 
