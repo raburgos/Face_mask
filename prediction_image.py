@@ -57,4 +57,4 @@ def frame_detection(path,config,model,ruta_yolo):
 
 #path="./mask2.JPG"
 frame_detection(args["path"],config,model,ruta_yolo)
-print("prediction saved: ",ruta_yolo)
+print("prediction saved: ",ruta_yolo+'prediction.JPG')
