@@ -26,3 +26,8 @@ This repository it´s about Object Detection using YOLOv3 and tiny yolov3, with 
       ![step5](/misc/step6.png)
 1. User your webcam to give a try (you can use yolov3 or tiny yolo as well!)
       ![step7](/misc/step7.png)
+1. You can make predictions over images. Example: python prediction_image.py -y yolov3 -p 1.JPG.
+   ![step10](/misc/step10.png)
+   After '-y' you have to specify model (yolov3 or tiny). After '-p' you have to specify path to the image, in this case we use image     1.JPG.<br />
+   Result:
+   ![predicion_image_example](/misc/prediction_image_example.JPG)
