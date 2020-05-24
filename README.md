@@ -13,6 +13,8 @@ This repository it´s about Object Detection using YOLOv3 and tiny yolov3, with 
 
 1. Git clone this repository
 
+1. Download YOLOv3 weights [here](http://www.mediafire.com/file/5r7ooamujxgo5pk/yolov3_custom_train_final.weights/file) and place the file in "yolo" folder. Also if you want tiny yolo model you can download weights [here](http://www.mediafire.com/file/dmqsp10bu7rqh9p/yolov3-tiny_custom_final.weights/file) and place the file in "tiny_yolo" folder.
+
 1. If you have Anaconda distribution in your machine you can create virtual environment, in order to not have problems with any library dependencies (you can directly use this excellent tutorial https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/) or use next steps:
    1. Go to Anaconda prompt in your machine:
       ![step1](/misc/step1.png)
@@ -25,7 +27,9 @@ This repository it´s about Object Detection using YOLOv3 and tiny yolov3, with 
    1. Now you can change directory to the path where you git clone this repository.
       ![step5](/misc/step6.png)
 1. User your webcam to give a try (you can use yolov3 or tiny yolo as well!)
-      ![step7](/misc/step7.png)
+      ![step7](/misc/step7.png)<br />
+   Result:<br />
+   ![demo](/misc/demo.gif)
 1. You can make predictions over images. Example: python prediction_image.py -y yolov3 -p 1.JPG.
    ![step10](/misc/step10.png)
    After '-y' you have to specify model (yolov3 or tiny). After '-p' you have to specify path to the image, in this case we use image     1.JPG.<br />
